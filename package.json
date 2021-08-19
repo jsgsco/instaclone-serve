@@ -1,0 +1,24 @@
+{
+  "name": "instaclone",
+  "version": "0.0.1",
+  "description": "Backend InstaClone",
+  "main": "index.js",
+  "author": "Jhon Steven Saavedra",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon ./index.js",
+    "start": "node ./index.js"
+  },
+  "dependencies": {
+    "apollo-server": "^2.15.0",
+    "aws-sdk": "^2.707.0",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.19",
+    "uuid": "^8.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
